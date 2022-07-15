@@ -2,10 +2,6 @@ import './Weather.css';
 import React, {useState, useEffect, useMemo} from 'react';
 import {getUserProfile, fetchWeather } from '../../api/backendAPI';
 
-// const api = {
-//     key : "1b801810edf2f965e69f04b8e2c365a4",
-//     base : "https://api.openweathermap.org/data/2.5/"
-// }
 
 export const Weather = () => {
 

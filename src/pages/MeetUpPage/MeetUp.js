@@ -86,7 +86,7 @@ export const MeetUp = () => {
 
     // load React Google Map 
     const {isLoaded} = useJsApiLoader({
-        googleMapsApiKey: 'AIzaSyBrqW5i2fwwTyDQlCQgWbBEtA_1jf0-2cA',
+        googleMapsApiKey: 'API_KEY',
         libraries: libRef.current
     });
     
